@@ -3,3 +3,6 @@
     margin: 0;
   }
 
+body {
+    background-image: url("images/what-the-hex.png");
+}
