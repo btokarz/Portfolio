@@ -2,7 +2,7 @@ const svgPath = document.querySelectorAll('.path');
 
 const svgText = anime({
   targets: svgPath,
-  loop: true,
+  loop: false,
   direction: 'alternate',
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: 'easeInSine',
